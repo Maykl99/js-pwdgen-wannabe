@@ -21,9 +21,9 @@ var lastName= prompt('Inserisci il tuo cognome')
 var color= prompt('Qual "è" il tuo colore preferito?')
 
 if(isNaN(firsrName) && isNaN(lastName) && isNaN(color)){
-    console.log(firsrName+lastName+color)
+    document.getElementById('app').innerHTML=firsrName+lastName+color
 }else if(firsrName==null || lastName==null || color==null){
-    alert('inserisci credenziali valide!!')
+    alert('inserisci credenziali valide, il vuoto non è tollerato!!')
 }else{
     alert('Formato valore non valido, inserisci solo valori di tipo stringa di testo!')
 }
