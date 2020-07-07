@@ -27,3 +27,4 @@ if(isNaN(firsrName) && isNaN(lastName) && isNaN(color)){
 }else{
     alert('Formato valore non valido, inserisci solo valori di tipo stringa di testo!')
 }
+
